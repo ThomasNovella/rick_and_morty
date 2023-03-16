@@ -13,6 +13,9 @@ function Nav ({onSearch}){
            <NavLink to='/home'>
             <p>Home</p>
             </NavLink>
+            <NavLink to='/favorites'>
+            <p>Favorites</p>
+           </NavLink>
             </header>
         <SearchBar
           onSearch={onSearch}
